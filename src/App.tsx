@@ -5,10 +5,11 @@ import { Header } from './components/Header';
 import styles from './App.module.css';
 
 import './global.css'
+import { MyTasksList } from './components/MyTasksList';
 
 function App() {
   return (
-    <div>
+    <>
       <Header />
 
       <form className={styles.form}>
@@ -19,7 +20,9 @@ function App() {
           <PlusCircle size={20} />
         </button>
       </form>
-    </div>
+
+      <MyTasksList />
+    </>
   )
 }
 

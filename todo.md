@@ -1,4 +1,5 @@
 # Funcionalidades
+- [] Criar layout e componentes
 - [] Adicionar uma nova tarefa
 - [] Marcar e desmarcar uma tarefa como concluída
 - [] Remover uma tarefa da listagem
