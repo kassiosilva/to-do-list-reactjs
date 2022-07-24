@@ -1,1 +1,64 @@
-.toDoList {}
+.myTasksList {
+  margin-top: 4rem;
+}
+
+.myTasksList header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.createdTasks, 
+.completedTasks {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+} 
+
+.createdTasks strong, 
+.completedTasks strong {
+  font-size: 0.875rem;
+  line-height: 1.7;
+}
+
+.createdTasks span, 
+.completedTasks span {
+  padding: 0.125rem 0.5rem;
+  background: var(--gray-400);
+  border-radius: 999px;
+  font-size: 0.75rem;
+  font-weight: bold;
+  line-height: 1.5;
+  color: var(--gray-200);
+}
+
+.createdTasks strong {
+  color: var(--blue);
+}
+
+.completedTasks strong {
+  color: var(--purple);
+}
+
+.content {
+  margin-top: 1.5rem;
+}
+
+.emptyList {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding: 4rem 1.5rem;
+  border-top: 1px solid var(--gray-400);
+  border-radius: 8px;
+}
+
+.emptyListInfo {
+  text-align: center;
+}
+
+.emptyListInfo strong, p {
+  line-height: 1.4;
+  color: var(--gray-300);
+}
